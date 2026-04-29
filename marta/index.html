@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Marta — Creative Portfolio</title>
+  <meta name="description" content="Marta — thoughtful creative work, visual storytelling, and calm design." />
+  <link rel="stylesheet" href="../shared.css" />
+</head>
+<body class="marta">
+  <main class="page">
+    <nav><span>Marta</span><a href="mailto:hello@example.com">Contact</a></nav>
+    <section class="hero">
+      <p class="eyebrow">Creative Portfolio</p>
+      <h1>Quiet ideas, beautifully made.</h1>
+      <p class="lead">Marta creates warm, polished work for brands, people, and projects that deserve a softer kind of attention.</p>
+      <div class="actions"><a class="button" href="mailto:hello@example.com">Start a project</a><a class="link" href="#work">See focus areas</a></div>
+    </section>
+    <section id="work" class="cards">
+      <article><h2>Visual direction</h2><p>Mood, color, layout, and story systems that make a project feel instantly clear.</p></article>
+      <article><h2>Content</h2><p>Concise words and visual rhythm for pages, launches, social posts, and presentations.</p></article>
+      <article><h2>Brand polish</h2><p>Small refinements that make a first impression feel confident and complete.</p></article>
+    </section>
+    <footer>© <span id="year"></span> Marta</footer>
+  </main>
+  <script>document.getElementById('year').textContent = new Date().getFullYear()</script>
+</body>
+</html>
